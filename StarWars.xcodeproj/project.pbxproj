@@ -11,6 +11,27 @@
 		7A6DD4BC2AB2F3E200617DAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4BB2AB2F3E200617DAD /* ContentView.swift */; };
 		7A6DD4BE2AB2F3E300617DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6DD4BD2AB2F3E300617DAD /* Assets.xcassets */; };
 		7A6DD4C22AB2F3E300617DAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6DD4C12AB2F3E300617DAD /* Preview Assets.xcassets */; };
+		7A6DD4CF2AB2F97A00617DAD /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4CE2AB2F97A00617DAD /* Coordinator.swift */; };
+		7A6DD4D12AB2F99900617DAD /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4D02AB2F99900617DAD /* CoordinatorView.swift */; };
+		7A6DD4D42AB302CE00617DAD /* PlanetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4D32AB302CE00617DAD /* PlanetsView.swift */; };
+		7A6DD4D62AB302E000617DAD /* PlanetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4D52AB302E000617DAD /* PlanetsViewModel.swift */; };
+		7A6DD4DB2AB30D3A00617DAD /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4DA2AB30D3A00617DAD /* Enviroment.swift */; };
+		7A6DD4DD2AB30D7800617DAD /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4DC2AB30D7800617DAD /* Config.swift */; };
+		7A6DD4E22AB316F300617DAD /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4E12AB316F300617DAD /* APIClient.swift */; };
+		7A6DD4E52AB319E400617DAD /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 7A6DD4E42AB319E400617DAD /* CombineMoya */; };
+		7A6DD4E72AB319E400617DAD /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 7A6DD4E62AB319E400617DAD /* Moya */; };
+		7A6DD4EA2AB31A2C00617DAD /* PlanetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4E92AB31A2C00617DAD /* PlanetAPI.swift */; };
+		7A6DD4EC2AB31A3E00617DAD /* PlanetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4EB2AB31A3E00617DAD /* PlanetProvider.swift */; };
+		7A6DD4EF2AB31DC300617DAD /* PlanetsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4EE2AB31DC300617DAD /* PlanetsResponse.swift */; };
+		7A6DD4F12AB322E700617DAD /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4F02AB322E700617DAD /* NetworkError.swift */; };
+		7A6DD4F42AB3270900617DAD /* PlanetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4F32AB3270900617DAD /* PlanetDetailView.swift */; };
+		7A6DD4F62AB3271200617DAD /* PlanetDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4F52AB3271200617DAD /* PlanetDetailViewModel.swift */; };
+		7A6DD4F92AB3290B00617DAD /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4F82AB3290B00617DAD /* InfoRow.swift */; };
+		7A6DD4FF2AB33D9800617DAD /* animation_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A6DD4FE2AB33D9800617DAD /* animation_loading.json */; };
+		7A6DD5022AB33F6500617DAD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7A6DD5012AB33F6500617DAD /* Lottie */; };
+		7A6DD5052AB33FBC00617DAD /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD5042AB33FBC00617DAD /* LottieView.swift */; };
+		7A6DD5082AB34F3900617DAD /* PlanetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD5072AB34F3900617DAD /* PlanetRow.swift */; };
+		7A6DD50B2AB3558D00617DAD /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7A6DD50A2AB3558D00617DAD /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +41,24 @@
 		7A6DD4BD2AB2F3E300617DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A6DD4BF2AB2F3E300617DAD /* StarWars.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StarWars.entitlements; sourceTree = "<group>"; };
 		7A6DD4C12AB2F3E300617DAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A6DD4CE2AB2F97A00617DAD /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		7A6DD4D02AB2F99900617DAD /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
+		7A6DD4D32AB302CE00617DAD /* PlanetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsView.swift; sourceTree = "<group>"; };
+		7A6DD4D52AB302E000617DAD /* PlanetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsViewModel.swift; sourceTree = "<group>"; };
+		7A6DD4DA2AB30D3A00617DAD /* Enviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
+		7A6DD4DC2AB30D7800617DAD /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		7A6DD4E12AB316F300617DAD /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		7A6DD4E92AB31A2C00617DAD /* PlanetAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetAPI.swift; sourceTree = "<group>"; };
+		7A6DD4EB2AB31A3E00617DAD /* PlanetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetProvider.swift; sourceTree = "<group>"; };
+		7A6DD4EE2AB31DC300617DAD /* PlanetsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsResponse.swift; sourceTree = "<group>"; };
+		7A6DD4F02AB322E700617DAD /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		7A6DD4F32AB3270900617DAD /* PlanetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailView.swift; sourceTree = "<group>"; };
+		7A6DD4F52AB3271200617DAD /* PlanetDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailViewModel.swift; sourceTree = "<group>"; };
+		7A6DD4F82AB3290B00617DAD /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
+		7A6DD4FE2AB33D9800617DAD /* animation_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_loading.json; sourceTree = "<group>"; };
+		7A6DD5042AB33FBC00617DAD /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		7A6DD5072AB34F3900617DAD /* PlanetRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetRow.swift; sourceTree = "<group>"; };
+		7A6DD50C2AB35A0A00617DAD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +66,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A6DD50B2AB3558D00617DAD /* Kingfisher in Frameworks */,
+				7A6DD4E72AB319E400617DAD /* Moya in Frameworks */,
+				7A6DD4E52AB319E400617DAD /* CombineMoya in Frameworks */,
+				7A6DD5022AB33F6500617DAD /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +79,7 @@
 		7A6DD4AD2AB2F3E200617DAD = {
 			isa = PBXGroup;
 			children = (
+				7A6DD50C2AB35A0A00617DAD /* README.md */,
 				7A6DD4B82AB2F3E200617DAD /* StarWars */,
 				7A6DD4B72AB2F3E200617DAD /* Products */,
 			);
@@ -52,10 +96,15 @@
 		7A6DD4B82AB2F3E200617DAD /* StarWars */ = {
 			isa = PBXGroup;
 			children = (
-				7A6DD4B92AB2F3E200617DAD /* StarWarsApp.swift */,
+				7A6DD5032AB33FA300617DAD /* Helpers */,
+				7A6DD4FD2AB33D8600617DAD /* Resource */,
+				7A6DD4CA2AB2F88000617DAD /* Models */,
+				7A6DD4CB2AB2F89100617DAD /* Views */,
+				7A6DD4CD2AB2F8C600617DAD /* Services */,
+				7A6DD4C92AB2F87300617DAD /* Coordinators */,
+				7A6DD4C82AB2F7C900617DAD /* App */,
 				7A6DD4BB2AB2F3E200617DAD /* ContentView.swift */,
 				7A6DD4BD2AB2F3E300617DAD /* Assets.xcassets */,
-				7A6DD4BF2AB2F3E300617DAD /* StarWars.entitlements */,
 				7A6DD4C02AB2F3E300617DAD /* Preview Content */,
 			);
 			path = StarWars;
@@ -67,6 +116,130 @@
 				7A6DD4C12AB2F3E300617DAD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A6DD4C82AB2F7C900617DAD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DD4BF2AB2F3E300617DAD /* StarWars.entitlements */,
+				7A6DD4B92AB2F3E200617DAD /* StarWarsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7A6DD4C92AB2F87300617DAD /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DD4CE2AB2F97A00617DAD /* Coordinator.swift */,
+				7A6DD4D02AB2F99900617DAD /* CoordinatorView.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		7A6DD4CA2AB2F88000617DAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DD4EE2AB31DC300617DAD /* PlanetsResponse.swift */,
+				7A6DD4F02AB322E700617DAD /* NetworkError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A6DD4CB2AB2F89100617DAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DD4F22AB326F300617DAD /* PlanetDetailView */,
+				7A6DD4D22AB302BA00617DAD /* PlanetsView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A6DD4CD2AB2F8C600617DAD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DD4E82AB31A1700617DAD /* API */,
+				7A6DD4D72AB30CEF00617DAD /* Network */,
+				7A6DD4ED2AB31A5100617DAD /* Providers */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7A6DD4D22AB302BA00617DAD /* PlanetsView */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DD5062AB34F2700617DAD /* CustomViews */,
+				7A6DD4D32AB302CE00617DAD /* PlanetsView.swift */,
+				7A6DD4D52AB302E000617DAD /* PlanetsViewModel.swift */,
+			);
+			path = PlanetsView;
+			sourceTree = "<group>";
+		};
+		7A6DD4D72AB30CEF00617DAD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DD4DA2AB30D3A00617DAD /* Enviroment.swift */,
+				7A6DD4DC2AB30D7800617DAD /* Config.swift */,
+				7A6DD4E12AB316F300617DAD /* APIClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7A6DD4E82AB31A1700617DAD /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DD4E92AB31A2C00617DAD /* PlanetAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		7A6DD4ED2AB31A5100617DAD /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DD4EB2AB31A3E00617DAD /* PlanetProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		7A6DD4F22AB326F300617DAD /* PlanetDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DD4F72AB328F600617DAD /* CustomViews */,
+				7A6DD4F32AB3270900617DAD /* PlanetDetailView.swift */,
+				7A6DD4F52AB3271200617DAD /* PlanetDetailViewModel.swift */,
+			);
+			path = PlanetDetailView;
+			sourceTree = "<group>";
+		};
+		7A6DD4F72AB328F600617DAD /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DD4F82AB3290B00617DAD /* InfoRow.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		7A6DD4FD2AB33D8600617DAD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DD4FE2AB33D9800617DAD /* animation_loading.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7A6DD5032AB33FA300617DAD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DD5042AB33FBC00617DAD /* LottieView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7A6DD5062AB34F2700617DAD /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				7A6DD5072AB34F3900617DAD /* PlanetRow.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +258,12 @@
 			dependencies = (
 			);
 			name = StarWars;
+			packageProductDependencies = (
+				7A6DD4E42AB319E400617DAD /* CombineMoya */,
+				7A6DD4E62AB319E400617DAD /* Moya */,
+				7A6DD5012AB33F6500617DAD /* Lottie */,
+				7A6DD50A2AB3558D00617DAD /* Kingfisher */,
+			);
 			productName = StarWars;
 			productReference = 7A6DD4B62AB2F3E200617DAD /* StarWars.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +292,11 @@
 				Base,
 			);
 			mainGroup = 7A6DD4AD2AB2F3E200617DAD;
+			packageReferences = (
+				7A6DD4E32AB319E400617DAD /* XCRemoteSwiftPackageReference "Moya" */,
+				7A6DD5002AB33F6500617DAD /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				7A6DD5092AB3558D00617DAD /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 7A6DD4B72AB2F3E200617DAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +313,7 @@
 			files = (
 				7A6DD4C22AB2F3E300617DAD /* Preview Assets.xcassets in Resources */,
 				7A6DD4BE2AB2F3E300617DAD /* Assets.xcassets in Resources */,
+				7A6DD4FF2AB33D9800617DAD /* animation_loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +325,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A6DD4BC2AB2F3E200617DAD /* ContentView.swift in Sources */,
+				7A6DD5052AB33FBC00617DAD /* LottieView.swift in Sources */,
 				7A6DD4BA2AB2F3E200617DAD /* StarWarsApp.swift in Sources */,
+				7A6DD4DB2AB30D3A00617DAD /* Enviroment.swift in Sources */,
+				7A6DD4CF2AB2F97A00617DAD /* Coordinator.swift in Sources */,
+				7A6DD4D42AB302CE00617DAD /* PlanetsView.swift in Sources */,
+				7A6DD4F42AB3270900617DAD /* PlanetDetailView.swift in Sources */,
+				7A6DD4D62AB302E000617DAD /* PlanetsViewModel.swift in Sources */,
+				7A6DD5082AB34F3900617DAD /* PlanetRow.swift in Sources */,
+				7A6DD4D12AB2F99900617DAD /* CoordinatorView.swift in Sources */,
+				7A6DD4F62AB3271200617DAD /* PlanetDetailViewModel.swift in Sources */,
+				7A6DD4DD2AB30D7800617DAD /* Config.swift in Sources */,
+				7A6DD4EA2AB31A2C00617DAD /* PlanetAPI.swift in Sources */,
+				7A6DD4EC2AB31A3E00617DAD /* PlanetProvider.swift in Sources */,
+				7A6DD4F92AB3290B00617DAD /* InfoRow.swift in Sources */,
+				7A6DD4F12AB322E700617DAD /* NetworkError.swift in Sources */,
+				7A6DD4EF2AB31DC300617DAD /* PlanetsResponse.swift in Sources */,
+				7A6DD4E22AB316F300617DAD /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = StarWars/StarWars.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StarWars/App/StarWars.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StarWars/Preview Content\"";
@@ -287,7 +488,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahan.StarWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,7 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = StarWars/StarWars.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StarWars/App/StarWars.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"StarWars/Preview Content\"";
@@ -325,7 +528,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahan.StarWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -354,6 +559,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A6DD4E32AB319E400617DAD /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+		7A6DD5002AB33F6500617DAD /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		7A6DD5092AB3558D00617DAD /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A6DD4E42AB319E400617DAD /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A6DD4E32AB319E400617DAD /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		7A6DD4E62AB319E400617DAD /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A6DD4E32AB319E400617DAD /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		7A6DD5012AB33F6500617DAD /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A6DD5002AB33F6500617DAD /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		7A6DD50A2AB3558D00617DAD /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A6DD5092AB3558D00617DAD /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7A6DD4AE2AB2F3E200617DAD /* Project object */;
 }
