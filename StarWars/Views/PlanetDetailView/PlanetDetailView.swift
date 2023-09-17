@@ -26,6 +26,7 @@ struct PlanetDetailView: View {
                 
                 Divider()
                 
+                //MARK: Detail
                 Group {
                     InfoRow(title: "Rotation Period", value: planet.rotationPeriod)
                     InfoRow(title: "Orbital Period", value: planet.orbitalPeriod)
@@ -40,6 +41,7 @@ struct PlanetDetailView: View {
                 
                 Divider()
                 
+                //MARK: Residents
                 Text("Residents:")
                     .font(.headline)
                 
@@ -52,6 +54,7 @@ struct PlanetDetailView: View {
                 
                 Divider()
                 
+                //MARK: Films
                 Text("Films:")
                     .font(.headline)
                 
@@ -69,6 +72,7 @@ struct PlanetDetailView: View {
     }
 }
 
+//MARK: Previews
 struct PlanetDetailView_Previews: PreviewProvider {
     static var previews: some View {
         let samplePlanet = Planet(

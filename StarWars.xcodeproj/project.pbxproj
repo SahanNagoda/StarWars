@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A5F17EA2AB7502100791C9B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5F17E92AB7502100791C9B /* SplashView.swift */; };
+		7A5F17EE2AB751CC00791C9B /* animation_splash.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A5F17ED2AB751CC00791C9B /* animation_splash.json */; };
 		7A6DD4BA2AB2F3E200617DAD /* StarWarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4B92AB2F3E200617DAD /* StarWarsApp.swift */; };
-		7A6DD4BC2AB2F3E200617DAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4BB2AB2F3E200617DAD /* ContentView.swift */; };
 		7A6DD4BE2AB2F3E300617DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6DD4BD2AB2F3E300617DAD /* Assets.xcassets */; };
 		7A6DD4C22AB2F3E300617DAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6DD4C12AB2F3E300617DAD /* Preview Assets.xcassets */; };
 		7A6DD4CF2AB2F97A00617DAD /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6DD4CE2AB2F97A00617DAD /* Coordinator.swift */; };
@@ -35,9 +36,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A5F17E92AB7502100791C9B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		7A5F17ED2AB751CC00791C9B /* animation_splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_splash.json; sourceTree = "<group>"; };
 		7A6DD4B62AB2F3E200617DAD /* StarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6DD4B92AB2F3E200617DAD /* StarWarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsApp.swift; sourceTree = "<group>"; };
-		7A6DD4BB2AB2F3E200617DAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A6DD4BD2AB2F3E300617DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A6DD4BF2AB2F3E300617DAD /* StarWars.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StarWars.entitlements; sourceTree = "<group>"; };
 		7A6DD4C12AB2F3E300617DAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A5F17E82AB7501100791C9B /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				7A5F17E92AB7502100791C9B /* SplashView.swift */,
+			);
+			path = SplashView;
+			sourceTree = "<group>";
+		};
 		7A6DD4AD2AB2F3E200617DAD = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +113,6 @@
 				7A6DD4CD2AB2F8C600617DAD /* Services */,
 				7A6DD4C92AB2F87300617DAD /* Coordinators */,
 				7A6DD4C82AB2F7C900617DAD /* App */,
-				7A6DD4BB2AB2F3E200617DAD /* ContentView.swift */,
 				7A6DD4BD2AB2F3E300617DAD /* Assets.xcassets */,
 				7A6DD4C02AB2F3E300617DAD /* Preview Content */,
 			);
@@ -148,6 +157,7 @@
 		7A6DD4CB2AB2F89100617DAD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7A5F17E82AB7501100791C9B /* SplashView */,
 				7A6DD4F22AB326F300617DAD /* PlanetDetailView */,
 				7A6DD4D22AB302BA00617DAD /* PlanetsView */,
 			);
@@ -222,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				7A6DD4FE2AB33D9800617DAD /* animation_loading.json */,
+				7A5F17ED2AB751CC00791C9B /* animation_splash.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -314,6 +325,7 @@
 				7A6DD4C22AB2F3E300617DAD /* Preview Assets.xcassets in Resources */,
 				7A6DD4BE2AB2F3E300617DAD /* Assets.xcassets in Resources */,
 				7A6DD4FF2AB33D9800617DAD /* animation_loading.json in Resources */,
+				7A5F17EE2AB751CC00791C9B /* animation_splash.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +336,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A6DD4BC2AB2F3E200617DAD /* ContentView.swift in Sources */,
 				7A6DD5052AB33FBC00617DAD /* LottieView.swift in Sources */,
 				7A6DD4BA2AB2F3E200617DAD /* StarWarsApp.swift in Sources */,
 				7A6DD4DB2AB30D3A00617DAD /* Enviroment.swift in Sources */,
@@ -342,6 +353,7 @@
 				7A6DD4F12AB322E700617DAD /* NetworkError.swift in Sources */,
 				7A6DD4EF2AB31DC300617DAD /* PlanetsResponse.swift in Sources */,
 				7A6DD4E22AB316F300617DAD /* APIClient.swift in Sources */,
+				7A5F17EA2AB7502100791C9B /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

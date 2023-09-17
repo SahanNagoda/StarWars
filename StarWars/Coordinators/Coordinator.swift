@@ -30,11 +30,6 @@ class Coordinator: ObservableObject {
         path.removeLast(path.count)
     }
     
-    func replaceRoot(page: Page) {
-        var path = NavigationPath()
-        path.append(page)
-        self.path = path
-    }
     
     @ViewBuilder
     func build(page: Page) -> some View {
@@ -44,7 +39,7 @@ class Coordinator: ObservableObject {
         case .planetDetail(planet: let planet):
             PlanetDetailView(planet: planet )
         case .splash:
-            ContentView()
+            SplashView()
         }
     }
 }

@@ -29,26 +29,38 @@ struct PlanetsView: View {
             }
         }
         .overlay(loadingView, alignment: .center)
+        .navigationBarBackButtonHidden(true)
     }
     
+    
+}
+
+//MARK: Previews
+struct PlanetsView_Previews: PreviewProvider {
+    static var previews: some View {
+        PlanetsView()
+            .environmentObject(Coordinator())
+    }
+}
+
+//MARK: CustomViews
+extension PlanetsView {
     private var loadingView: some View {
         if _viewModel.planets.count == 0 {
             return AnyView(
-                LottieView(lottieFile: "animation_loading", isLooped: true)
+                VStack {
+                    Spacer()
+                    LottieView(lottieFile: "animation_loading", isLooped: true)
+                        .frame(maxHeight: 200)
+                    ProgressView()
+                    Spacer()
+                }
             )
         } else {
             return AnyView(EmptyView())
         }
     }
-}
-
-struct PlanetsView_Previews: PreviewProvider {
-    static var previews: some View {
-        PlanetsView()
-    }
-}
-
-extension PlanetsView {
+    
     private func listViewSection() -> some View {
         List{
             ForEach(_viewModel.planets){ planet in

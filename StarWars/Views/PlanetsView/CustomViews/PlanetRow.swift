@@ -20,6 +20,7 @@ struct PlanetRow: View {
             Image(systemName: "chevron.right")
                 .foregroundColor(Color.gray)
         }
+        .contentShape(Rectangle())
         
     }
 }
